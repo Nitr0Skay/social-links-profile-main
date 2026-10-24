@@ -27,18 +27,28 @@
       width: 1px;
       white-space: nowrap;
     }
+
+    body {
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+    }
+
+    body p {
+      font-size: 14px;
+    }
   </style>
 </head>
 <body>
-  <header>
+  <header class="visuallyhidden">
     <h1> Page Title - Front End Mentor Challenge </h1>
   </header>
 
   <main>
-    <h2> Content Title - Social Links Profile Main </h2>
+    <h2 class="visuallyhidden"> Content Title - Social Links Profile Main </h2>
 
     <article>
-      <h3> Component Title - Profile Component </h3>
+      <h3 class="visuallyhidden"> Component Title - Profile Component </h3>
       <section>
         <h4> Jessica Randall </h2>
         <h5> London, United Kingdom </h3>
@@ -46,10 +56,10 @@
       </section>
 
       <section>
-        <h4> Section title - Social links </h4>
+        <h4 class="visuallyhidden"> Section title - Social links </h4>
         <ul>
-          <li> <a href="github.com"> GitHub </a> </li>
-          <li> <a href="frontendmentor.io"> Frontend Mentor </a> </li>
+          <li> <a href="https://github.com"> GitHub </a> </li>
+          <li> <a href="https://www.frontendmentor.io"> Frontend Mentor </a> </li>
           <li> <a href="#"> LinkedIn </a> </li>
           <li> <a href="#"> Twitter </a> </li>
           <li> <a href="#"> Instagram </a> </li>
